@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="shortcut icon" href="images/flat-sun-and-cloud-weather-web-icon-vector-removebg-preview.png" type="image/x-icon">
+  <title>Weather</title>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>🌤️ Weather App</h1>
+
+    <div class="search">
+      <input type="text" name="country" id="W_country" placeholder="Enter City Name" spellcheck="false">
+
+      <button onclick="Search_Weather"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="info_weather">
+      <div id="cityName">City</div>
+      <img id="weatherIcon" src="images/flat-sun-and-cloud-weather-web-icon-vector-removebg-preview.png"
+        alt="Weather icon">
+      <div id="temperature">25°C</div>
+
+      <div class="extra-info">
+        <p>💧 Humidity: <span id="humidity">--%</span></p>
+        <p>💨 Wind: <span id="wind">-- km/h</span></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
