@@ -25,5 +25,6 @@ It demonstrates my ability to work with external APIs, fetch & display live data
 To run the demo, please add your own API key in `script.js`.  
 
 ## 📬 Contact
+- 👤 [Hassan Abdelnby Hassan]
 - 💼 Front-End Developer Intern @ Codveda Technologies  
 - 🔗 [LinkedIn Profile](www.linkedin.com/in/hassan-a-hassan)
